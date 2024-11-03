@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+.intro-image {
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.options, .section {
+    display: none; /* Initially hide sections */
+    padding: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.bubble {
+    position: absolute;
+    background-color: #87ceeb;
+    border-radius: 50%;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: transform 0.2s; /* Add a transition effect */
+}
+
+.bubble:hover {
+    transform: scale(1.1); /* Slightly enlarge bubble on hover */
+}
